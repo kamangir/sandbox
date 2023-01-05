@@ -12,7 +12,7 @@ function sandbox_docker() {
     if [ "$task" == build ] ; then
         local options=$2
 
-        local do_start=$(fast_option_int "$options" start 0)
+        local do_start=$(abcli_option_int "$options" start 0)
 
         pushd $abcli_path_git/sandbox > /dev/null
         docker build -t kamangir/sandbox .
