@@ -1,5 +1,3 @@
 NAME = "sandbox"
 
-VERSION = "1.3.1"
-
-from .functions import *
+VERSION = "1.4.1"
