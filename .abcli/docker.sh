@@ -17,6 +17,7 @@ function sandbox_docker() {
         pushd $abcli_path_git/sandbox > /dev/null
         docker build \
             --build-arg HOME=$HOME \
+            --no-cache \
             -t kamangir/sandbox .
         popd > /dev/null
 
