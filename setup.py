@@ -1,6 +1,6 @@
 from setuptools import setup
 
-from blue_plugin import NAME, VERSION
+from sandbox import NAME, VERSION
 
 setup(
     name=NAME,
